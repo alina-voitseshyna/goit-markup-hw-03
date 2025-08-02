@@ -138,6 +138,10 @@ max-width: 496px;
   color: #fff;
   background: #4d5ae5;
   align-items: center;
+  display: block; 
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .button:hover,
