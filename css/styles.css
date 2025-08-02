@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -124,6 +128,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+max-width: 496px;
 }
 
 .button {
@@ -132,6 +137,7 @@ color: #fff;
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  align-items: center;
 }
 
 .button:hover,
