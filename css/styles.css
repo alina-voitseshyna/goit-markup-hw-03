@@ -181,7 +181,7 @@ overflow: hidden;
 }
 
 .benefits-item {
-  width: calc((100% - 72px) / 4)
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-titles {
@@ -221,13 +221,13 @@ margin-bottom: 72px;
 
 .teammembers-list {
   background-color: #fff;
-  width: calc((100% - 72px) / 4)
+  border-radius: 0px 0px 4px 4px; 
+  width: calc((100% - 72px) / 4);
 }
 
 .container-team {
   padding: 32px 0;
   text-align: center; 
-  margin-bottom: 8px;
 }
 
 .teammember-name-title {
@@ -236,6 +236,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .job-title {
@@ -245,6 +246,10 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.postfolio-section {
+  padding: 120px 0;
+}
+
 .portfolio {
 font-size: 36px;
 line-height: 1.11;
@@ -252,6 +257,21 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
+margin-bottom: 72px; 
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.portfolio-context {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-items {
@@ -260,7 +280,9 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
+
 .portfolio-items-description {
 font-size: 16px;
 line-height: 1.5;
